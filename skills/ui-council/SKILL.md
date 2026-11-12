@@ -17,7 +17,11 @@ skip this.
 4. Run the `council` skill on it. Each delegate scores both sides of every pair
    and the whole set out of 10, and lists at most 8 fixes.
 5. Fix what two or more delegates ask for in the same round. Skip one-off
-   asks and anything a delegate reversed.
+   asks and anything a delegate reversed. Spin up a new thread to make the
+   fixes, give it the reference screens, and tell it to stay close to them:
+   match their layout, spacing, type and density instead of inventing a
+   different design. Screens that stay close to the reference score higher
+   than ones that deviate from it.
 6. Repeat until every delegate rates the set 8.6/10 or more and yours wins every
    pair. Only the user ends it early.
 7. In the PR, show the changes instead of listing them: simple before and
